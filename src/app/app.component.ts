@@ -36,8 +36,8 @@ export class AppComponent implements OnInit {
 
     this.map = new Map('mapId').setView([40.4169019, -3.7056721], 14);
 
-    tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
-      attribution: 'edupala.com'
+    tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(this.map);
 
     clusterData.Cluster.forEach((cluster) => {
