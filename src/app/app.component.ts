@@ -4,9 +4,9 @@ import { Map, tileLayer } from 'leaflet';
 import * as L from 'leaflet';
 import * as clusterData200 from '../assets/data.json';
 import * as clusterData100 from '../assets/data_todo_100.json';
-import * as clusterData75 from '../assets/data_todo_100.json';
-import * as clusterData50 from '../assets/data_todo_100.json';
-import * as clusterData25 from '../assets/data_todo_100.json';
+import * as clusterData75 from '../assets/data_todo_75.json';
+import * as clusterData50 from '../assets/data_todo_50.json';
+import * as clusterData25 from '../assets/data_todo_25.json';
 
 
 // const iconRetinaUrl = 'marker-icon-2x.png';
