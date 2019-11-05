@@ -42,7 +42,7 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
 
-    this.map200 = new Map('map200').setView([40.4169019, -3.7056721], 14);
+    this.map200 = new Map('map200').setView([40.4169019, -3.7056721], 11);
     tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(this.map200);
@@ -53,7 +53,7 @@ export class AppComponent implements OnInit {
         .openPopup();
     });
 
-    this.map100 = new Map('map100').setView([40.4169019, -3.7056721], 14);
+    this.map100 = new Map('map100').setView([40.4169019, -3.7056721], 11);
     tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(this.map100);
@@ -64,7 +64,7 @@ export class AppComponent implements OnInit {
         .openPopup();
     });
 
-    this.map75 = new Map('map75').setView([40.4169019, -3.7056721], 14);
+    this.map75 = new Map('map75').setView([40.4169019, -3.7056721], 11);
     tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(this.map75);
@@ -75,7 +75,7 @@ export class AppComponent implements OnInit {
         .openPopup();
     });
 
-    this.map50 = new Map('map50').setView([40.4169019, -3.7056721], 14);
+    this.map50 = new Map('map50').setView([40.4169019, -3.7056721], 11);
     tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(this.map50);
@@ -86,7 +86,7 @@ export class AppComponent implements OnInit {
         .openPopup();
     });
 
-    this.map25 = new Map('map25').setView([40.4169019, -3.7056721], 14);
+    this.map25 = new Map('map25').setView([40.4169019, -3.7056721], 11);
     tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(this.map25);
